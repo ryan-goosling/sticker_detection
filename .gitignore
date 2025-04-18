@@ -1,0 +1,29 @@
+# Ignore training outputs
+runs/
+
+# Ignore generated dataset
+dataset/
+backgrounds/
+
+# Ignore models
+*.pt
+
+# Ignore YOLO caches
+*.cache
+*.log
+
+# Ignore Jupyter/IPython artifacts
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system files
+.DS_Store
