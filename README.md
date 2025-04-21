@@ -128,8 +128,11 @@ These results demonstrate the model's high precision and recall, even on synthet
 
 ### 🖼️ Example Synthetic dataset samples
 
-
-
+<p align="center">
+  <img src="assets/dataset_samples/1.jpg" width="30%" />
+  <img src="assets/dataset_samples/2.jpg" width="30%" />
+  <img src="assets/dataset_samples/3.jpg" width="30%" />
+</p>
 
 ---
 
