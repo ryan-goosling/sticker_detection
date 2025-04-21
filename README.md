@@ -126,6 +126,14 @@ These results demonstrate the model's high precision and recall, even on synthet
 
 *Predicted bounding boxes for sticker detection across diverse real-world scenes.*
 
+### 🖼️ Example Synthetic dataset samples
+
+<p align="center">
+  <img src="assets/dataset_samples/1.jpg" width="30%" />
+  <img src="assets/dataset_samples/1.jpg" width="30%" />
+  <img src="assets/dataset_samples/1.jpg" width="30%" />
+</p>
+
 
 ---
 
