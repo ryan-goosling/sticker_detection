@@ -6,7 +6,7 @@ dataset/
 backgrounds/
 
 # Ignore models
-*.pt
+#*.pt
 
 # Ignore YOLO caches
 *.cache
