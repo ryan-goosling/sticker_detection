@@ -42,9 +42,11 @@ This project was developed and tested with the following setup:
 ├── dataset_preparation.py     # Script to generate synthetic dataset
 ├── train.py                   # YOLO training launcher
 ├── test.py                    # Inference on test set
-├── hybrid_inference.py        # Combined sliding-window + resize inference
+├── inference.py               # Combined sliding-window + resize inference
 ├── requirements.txt           # Project dependencies
-└── README.md
+├── README.md
+├── init-cpu.bat
+└── init-gpu.bat
 ```
 
 ---
@@ -117,9 +119,9 @@ These results demonstrate the model's high precision and recall, even on synthet
 ### 🖼️ Example Inference Results
 
 <p align="center">
-  <img src="assets/1.jpg" width="30%" />
-  <img src="assets/2.jpg" width="30%" />
+  <img src="assets/0.png" width="30%" />
   <img src="assets/3.jpg" width="30%" />
+  <img src="assets/5.jpg" width="30%" />
 </p>
 
 *Predicted bounding boxes for sticker detection across diverse real-world scenes.*
