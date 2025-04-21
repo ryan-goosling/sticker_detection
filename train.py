@@ -8,13 +8,13 @@ model = YOLO("yolov8n.pt")
 
 model.train(
     data=str(data_path),
-    epochs=100,
+    epochs=200,
     imgsz=512,
     batch=16,
     name="yolo-stickers",
     patience=20,
     save=True,
-    save_period=1,
+    save_period=10,
     val=True,
     verbose=True,
     workers=4
