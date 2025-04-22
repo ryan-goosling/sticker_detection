@@ -145,6 +145,7 @@ These results demonstrate the model's high precision and recall, even on synthet
 - [ ] try to find roi using segmentation, and then detect and train the model for classification
 - [ ] fix incorrect markup generation after perspective deformations and augmentations
 - [ ] add overlapping objects to the generation
+- [ ] try to assemble a small dataset to train the diffusion model using LoRA. Then, using the inpainting pipeline, generate objects in the scene style using the mask
 
 ---
 
